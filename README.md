@@ -93,7 +93,7 @@ An editable version of this diagram is on google drive via [draw.io](https://dri
 
 ## What it looks like in Kubernetes
 
-![Deployment Diagram](docs/bestie_k8s.drawio.svg)
+![Kubernetes Deployment Diagram](docs/bestie_k8s.drawio.svg)
 
 ## Capability description
 The l5 operator is an example of a minimal implementation of the 5 capability levels described by the operator framework
@@ -102,7 +102,7 @@ The l5 operator is an example of a minimal implementation of the 5 capability le
 The L5 operator is able to take advantage of the Operator Lifecycle Manager and is able to deployed with one click. Once deployed it is able to set up its operator upon creation of a custom resource.
 
 ### Level 2: Seamless Upgrades
-Its possible to rollout both operator and operand updates seamless with some caveats.
+Its possible to rollout both operator and operand updates seamlessly with some caveats.
 
 ### Level 3: Full Lifecycle
 Backup and restore functionality is provided via the postgres operator which we consume in order to get a database-as-a-service right within our cluster
